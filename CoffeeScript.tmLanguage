@@ -146,9 +146,9 @@
 					<string>punctuation.definition.string.end.coffee</string>
 				</dict>
 			</dict>
-			<key>name</key>
-			<string>string.quoted.script.coffee</string>
-			<key>patterns</key>
+      <key>name</key>
+      <string>source.js</string>
+      <key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
@@ -156,6 +156,10 @@
 					<key>name</key>
 					<string>constant.character.escape.coffee</string>
 				</dict>
+		    <dict>
+            <key>include</key>
+            <string>source.js</string>
+        </dict>
 			</array>
 		</dict>
 		<dict>
